@@ -1,0 +1,10 @@
+^D:\EGYETEM\EGYETEM-CODING\ELTE---GRAFIKUSPROCESSZOROK---2025\BUILD\CMAKEFILES\67EB1B1843D336BF02D338AC0793E2B2\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025 -BD:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build/NumericalIntegrator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\EGYETEM\EGYETEM-CODING\ELTE---GRAFIKUSPROCESSZOROK---2025\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025 -BD:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build --check-stamp-file D:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

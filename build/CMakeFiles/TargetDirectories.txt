@@ -1,0 +1,3 @@
+D:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build/CMakeFiles/NumericalIntegrator.dir
+D:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build/CMakeFiles/ALL_BUILD.dir
+D:/Egyetem/Egyetem-Coding/ELTE---GrafikusProcesszorok---2025/build/CMakeFiles/ZERO_CHECK.dir
