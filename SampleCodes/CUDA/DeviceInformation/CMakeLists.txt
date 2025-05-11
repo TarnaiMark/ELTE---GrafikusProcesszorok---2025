@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(devinfo LANGUAGES CXX CUDA)
+enable_language(CUDA)
+add_executable(devinfo DeviceInformation.cu)
+target_link_libraries(devinfo cuda)
+set_target_properties(devinfo PROPERTIES CUDA_SEPARABLE_COMPILATION ON)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(saxpy LANGUAGES CXX CUDA)
+enable_language(CUDA)
+add_executable(saxpy Saxpy.cu)
+target_link_libraries(saxpy cuda)
+set_target_properties(saxpy PROPERTIES CUDA_SEPARABLE_COMPILATION ON)

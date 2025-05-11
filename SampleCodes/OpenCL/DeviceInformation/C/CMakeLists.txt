@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.20)
+project(devinfo LANGUAGES CXX)
+find_package(OpenCL REQUIRED)
+add_executable(devinfo DeviceInformation.cpp)
+target_link_libraries(devinfo OpenCL::OpenCL)

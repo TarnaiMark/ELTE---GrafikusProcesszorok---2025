@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(matmul LANGUAGES CXX CUDA)
+enable_language(CUDA)
+add_executable(matmul MatMul.cu)
+target_link_libraries(matmul cuda)
+set_target_properties(matmul PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
